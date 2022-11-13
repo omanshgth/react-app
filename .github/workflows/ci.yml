@@ -15,8 +15,8 @@ jobs:
         with:
           node-version: "12.x"
       - run:  npm ci
+      - run:  npm install --global prettier
       - run:  npm run format:check
       - run:  npm test -- --coverage
         env:
           CI: true
-          
