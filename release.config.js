@@ -5,13 +5,11 @@ module.exports = {
             '@semantic-release/commit-analyzer', 
             '@semantic-release/release-notes-generator', 
             '@semantic-release/npm', 
-            ['@semantic-release/github',
-                {assets: [
+            ['@semantic-release/github', {
+                assets: [
                     {path: "build.zip", label: "Build"},
                     {path: "cover.zip", label: "Cover"}
                 ]
-                }
-                
-            ]
+                }]
         ]
-}
+};
