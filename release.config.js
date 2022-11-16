@@ -10,6 +10,7 @@ module.exports = {
                     {path: "build.zip", label: "Build"},
                     {path: "cover.zip", label: "Cover"}
                 ]
-                }]
+                }
+            ]
         ]
 };
